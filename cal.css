@@ -1,0 +1,116 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main{
+
+  display: grid;
+  border-radius: 20px;
+  box-sizing: border-box;
+   align-items: center;
+  justify-content: center;
+  background: linear-gradient(purple,wheat,pink);
+  width: 400px;  
+}
+h2{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: palegoldenrod;
+
+}
+.screen-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+width: 300px;
+height: 50px;
+  
+}
+
+
+.button-section{
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: (4, 1fr);
+   background: linear-gradient(white, wheat,grey);
+  width:250px;
+  padding: 30px;
+  margin: 10px;
+}
+.btn:hover{
+  background-color: bisque;
+  color: #8813e1;
+  cursor: pointer;
+  transform: scale(1,2);
+}
+
+
+.btn{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 5px;
+  background: rgba(225, 225, 225, 0.2);
+  color: purple;
+}
+.Delbtn{
+  background-color: blueviolet;
+   width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 5px;
+  color:white; 
+}
+  .Delbtn:hover{
+  background-color:gray;
+  color: white;
+  cursor: pointer;
+  transform: scale(0.9,0.9);
+}
+
+.Resetbtn{
+  background-color: blueviolet;
+   width: 109px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 5px;
+  color:white;
+}
+.Resetbtn:hover{
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transform:scale(0.9,0.9);
+}
+.Equalbtn{
+  background-color: red;
+   width: 109px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 5px;
+  color:white;
+}
+.Equalbtn:hover{
+  background-color:gray;
+  color:white;
+  cursor: pointer;
+  transform: scale(0.9,0.9);
+}
+
+
+
