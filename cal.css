@@ -1,8 +1,4 @@
-@media (hover: hover) and (pointer:fine)
-{.btn:hover{
-  transform: scale(1.1);
-}
-}
+
 body{
   display: flex;
   justify-content: center;
@@ -57,14 +53,20 @@ height: 50px;
   padding: 30px;
   margin: 10px;
 }
+@media (hover: hover) and (pointer:fine)
+{
+
+}
+
 .btn:hover{
   background-color: bisque;
   color: #8813e1;
   cursor: pointer;
-  transform: scale(1,2);
+  transform: scale(1.05);
 }
 .btn:active{
   transform: scale(0.95);
+  transition:transform 0.1s;
 }
 
 
